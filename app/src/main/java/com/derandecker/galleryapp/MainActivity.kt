@@ -86,6 +86,8 @@ class MainActivity : AppCompatActivity() {
             } else {
                 right_column.addView(iv)
             }
+
+            iv_left_column.contentDescription = getString(R.string.alleyway)
         }
 
 //        <style name="ImageStyle">

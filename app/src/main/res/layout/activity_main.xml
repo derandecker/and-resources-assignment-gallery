@@ -16,6 +16,7 @@
             <ImageView
                     android:id="@+id/iv_left_column"
                     android:src="@drawable/alley_architecture_buildings_2526517"
+                    android:contentDescription="@string/alleyway_with_yellow_paint_on_road"
                     style="@style/ImageStyle"/>
         </LinearLayout>
         <LinearLayout
