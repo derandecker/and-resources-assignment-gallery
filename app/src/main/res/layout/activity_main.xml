@@ -13,6 +13,10 @@
         <LinearLayout
                 style="@style/VerticalColumn"
                 android:id="@+id/left_column">
+            <ImageView
+                    android:id="@+id/iv_left_column"
+                    android:src="@drawable/alley_architecture_buildings_2526517"
+                    style="@style/ImageStyle"/>
         </LinearLayout>
         <LinearLayout
                 style="@style/VerticalColumn"
