@@ -13,8 +13,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        val ivList = mutableListOf<ImageView>()
+        var ivList = mutableListOf<ImageView>()
 
         ivList.add(0, ImageView(this))
         ivList[0].setImageDrawable(
@@ -66,10 +65,6 @@ class MainActivity : AppCompatActivity() {
             ContextCompat.getDrawable(this, R.drawable.colorful_colourful_houses_2501965)
         )
 
-        ivList.add(10, ImageView(this))
-        ivList[10].setImageDrawable(
-            ContextCompat.getDrawable(this, R.drawable.wallpaper_astronomy_astrophotography_2538107)
-        )
 
 
         val layoutParams = LinearLayout.LayoutParams(
